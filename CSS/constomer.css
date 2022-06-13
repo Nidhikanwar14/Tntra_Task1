@@ -24,7 +24,7 @@ label{
     font-size: 17px;
 }
 h5{
-    font-size: 30px;
+    font-size: 20px;
     padding-bottom: 10px;
 }
 p{
@@ -67,15 +67,24 @@ input[type=text6]:focus {
   border-collapse: collapse;
   width: 100%;  
 }
- th, td {
-    border-color: black;
-    border-collapse: collapse;
-  }
+
+
 th:nth-child(2), th:nth-child(3),th:nth-child(4) {
   background-color: rgb(236, 216, 219);
+  border:1px solid black;
 
 }
 td:nth-child(1) {
   background-color: rgb(236, 216, 219);
-  border-top :1px solid rgb(245, 204, 204);
+  /* border-top :1px solid rgb(245, 204, 204); */
 }
+th{
+    border :1px solid black;
+}
+tr{
+    border:1px solid black;
+}
+td{
+    border:1px solid black;
+}
+/*-------------------------*/
