@@ -49,17 +49,6 @@ input[type="text1"]{
     #subject{
         width :725;height:250px;
     }
-
-    input[type=text]{
-       
-        padding: 10px 15px;
-        width:40%;
-        display: inline-block;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-        box-sizing: border-box;
-        
- }
  input[type=text6]{
        
     padding: 10px 15px;
@@ -76,13 +65,12 @@ input[type=text6]:focus {
   table {
   font-family: 'Times New Roman', Times, serif;
   border-collapse: collapse;
-  width: 100%;
+  width: 100%;  
 }
-td, th {
-  border-color:  solid black;
-  text-align: left;
-  padding: 8px;
-}
+ th, td {
+    border-color: black;
+    border-collapse: collapse;
+  }
 th:nth-child(2), th:nth-child(3),th:nth-child(4) {
   background-color: rgb(236, 216, 219);
 
